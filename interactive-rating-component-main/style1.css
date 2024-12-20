@@ -1,0 +1,160 @@
+* {
+    justify-content: center;
+}
+
+body {
+    background-color: black;
+    display: flex;
+}
+
+.container {
+    background-color: rgb(7, 1, 27);
+    margin: 100px auto;
+    width: 23%;
+    padding: 21px;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    height: 250px;
+    position: relative; 
+}
+
+.paragraph {
+    margin-left: -2px;
+    font-size: 15px;
+    margin-top: -10px;
+    width: auto;
+}
+
+.head {
+    margin-top: 50px;
+    margin-left: -140px;
+}
+
+.Image {
+    position: absolute;
+    top: 5%; 
+    left: 8%;
+    padding: 5px;
+    background-color: rgb(44, 41, 41);
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.rating-buttons {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(7, 1, 27);
+    gap: 10px;
+}
+
+.rating-button {
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: none;
+    margin-top: 5px;
+    background-color: rgb(35, 35, 44);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.rating-button:hover {
+    background-color: #fff;
+}
+
+.text {
+    margin: -10px;
+}
+
+.text1 {
+    margin: 5px;
+    margin-left: -150px;
+}
+
+.btn {
+    border-radius: 30px;
+    width: 280px;
+    padding: 8px;
+    margin-top: 20px;
+    background-color: #d66b07;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #fff;
+}
+
+
+
+/* Media queries */
+@media screen and (min-width: 375px) {
+    .container {
+        width: 400px;
+    }
+
+    .Image {
+        top: 10%; 
+        left: 8%;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .container {
+        width: 500px;
+    }
+
+    .Image {
+        top: 10%; 
+        left: 12%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 320px;
+    }
+
+    .Image {
+        top: 10%; 
+        left: 8%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 330px;
+    }
+
+    .Image {
+        top: 10%; 
+        left: 8%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        width: 350px;
+    }
+
+    .Image {
+        top: 8%; 
+        left: 8%;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .container {
+        margin-top: 200px;
+        width: 350px;
+    }
+
+    .Image {
+        top: 5%; 
+        left: 8%;
+    }
+}
+
+
+
